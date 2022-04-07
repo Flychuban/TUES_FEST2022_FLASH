@@ -1,7 +1,35 @@
-iframe{
-    width: 100%;
-    margin: none;
-    height: 730px;
-    border: none;
-    padding: none;
+iframe {
+  width: 100%;
+  margin: none;
+  height: 690px;
+  border: none;
+  padding: none;
+}
+body {
+  background-color: rgba(172, 255, 47, 0.325);
+}
+button {
+  margin: 10px;
+  padding: 20px;
+  color: rgb(184, 255, 42);
+  background-color: black;
+  border: none;
+  border-radius: 15%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+button:active {
+  background-color: rgba(172, 255, 47, 0.325);
+  color: black;
+}
+
+.right {
+  float: right;
+}
+.title {
+  display: inline;
+  font-size: xx-large;
+  text-align: center;
+  margin: 26%;
 }
