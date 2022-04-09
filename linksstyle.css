@@ -8,23 +8,6 @@ iframe {
 body {
   background-color: rgba(172, 255, 47, 0.325);
 }
-button {
-  margin: 20px;
-  margin-bottom: 0;
-  padding: 30px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.825);
-  border: none;
-  border-radius: 15%;
-  font-family: "Times New Roman", Times, serif;
-  font-size: large;
-}
-
-button:active {
-  background-color: rgba(172, 255, 47, 0.325);
-  color: black;
-}
-
 .right {
   float: right;
 }
@@ -37,9 +20,11 @@ button:active {
   color: black;
 }
 .dropbtn {
-  margin-left: 26%;
+  margin-top: 15%;
+  margin-left: 27%;
   margin-bottom: 0;
-  padding: 30px;
+  padding: 25px;
+  width: 150px;
   color: white;
   background-color: rgba(0, 0, 0, 0.825);
   border: none;
@@ -59,7 +44,7 @@ button:active {
 .dropdown-content {
   display: none;
   margin-left: 26%;
-  margin-top: 5px;
+  margin-top: 4px;
   border-radius: 15%;
   position: absolute;
   background-color: #f9f9f9;
