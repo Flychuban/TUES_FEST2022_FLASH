@@ -8,22 +8,7 @@ iframe {
 body {
   background-color: rgba(172, 255, 47, 0.325);
 }
-button {
-  margin: 20px;
-  margin-bottom: 0;
-  padding: 30px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.825);
-  border: none;
-  border-radius: none;
-  font-family: "Times New Roman", Times, serif;
-  font-size: large;
-}
 
-button:hover {
-  background-color: green;
-  color: black;
-}
 
 .right {
   float: right;
@@ -42,14 +27,13 @@ button:hover {
   margin-left: 27%;
   margin-bottom: 0;
   padding: 25px;
-  width: 150px;
+  width: 160px;
   color: white;
   background-color: rgba(0, 0, 0, 0.825);
   border: none;
-  border-radius: 15%;
+  border-radius: 0px;
   font-family: "Times New Roman", Times, serif;
   font-size: large;
-  cursor: pointer;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -62,11 +46,13 @@ button:hover {
 .dropdown-content {
   display: none;
   margin-left: 26%;
-  margin-top: 4px;
-  border-radius: 15%;
+  margin-top: 0px;
+  border-radius: 0px;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
+  width: 100%;
+  overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -74,7 +60,7 @@ button:hover {
 /* Links inside the dropdown */
 .dropdown-content a {
   color: black;
-  border-radius: 15%;
+  border-radius: 0px;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
